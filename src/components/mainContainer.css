@@ -1,0 +1,159 @@
+.mainsection{
+    width: 80%;
+    margin: 30px auto;
+    /* border: 2px solid black; */
+}
+
+.copycont{
+    display: flex;
+    justify-content:space-between;
+    margin: 0px 5px 5px 5px;
+    /* border: 2px solid black; */
+    align-items: center;
+    /* text-decoration: none; */
+}
+
+.copycont #copytext{
+    color: rgb(2, 165, 2);
+    font-size: 18px;
+    margin: 0px;
+}
+
+.copycont #copybtn{
+   padding: 4px 20px;
+   outline: none;
+   border-radius: 10px;
+   cursor: copy;
+   transition: all 0.5s;
+   font: bold;
+   border: 1px solid black;
+   background-color: rgb(13, 110, 253);
+   color: white;
+}
+
+.copycont #copybtn:hover{
+    background-color: rgb(2, 165, 2);
+}
+
+.MainCont textarea{
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.MainCont textarea:hover{
+    border: 2px solid rgb(255, 102, 1);
+}
+
+.mainCont-btns{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 20px;
+}
+
+.mainCont-btns input{
+    padding: 2px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(255, 102, 0);
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.5s;
+    margin: 0px 5px;
+}
+
+.mainCont-btns input:hover{
+    background-color: rgb(2, 165, 2);
+    color: white;
+    
+}
+
+.textsummery{
+    margin-top: 50px;
+}
+
+/* .textsummery h4{
+    
+} */
+
+.textsummery p{
+    font-size: 18px;
+}
+
+.textsummery span{
+    color: orangered;
+    font-size: 18px;
+}
+
+
+
+@media (max-width: 1020px) {
+    .mainCont-btns input {
+        padding: 1px 10px;
+    }
+  }
+
+@media (max-width: 750px) {
+    .mainCont-btns input {
+        font-size: 18px;
+        padding: 1px 5px;
+    }
+  }
+
+@media (max-width: 650px) {
+
+    .mainsection{
+        margin-top: 30px;
+    }
+
+    .mainCont-btns input {
+        font-size: 15px;
+        padding: 1px 5px;
+    }
+  }
+
+@media (max-width: 550px){
+
+    .mainsection{
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .mainCont-btns input {
+        font-size: 15px;
+        padding: 1px 5px;
+    }
+}
+
+@media (max-width: 500px){
+
+    .mainsection{
+        margin-top: 20px;
+    }
+
+    .mainCont-btns{
+        display: block;
+        height: 150px;
+        text-align: center;
+    }
+
+    .mainCont-btns input{
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding: 1px 10px;
+    }
+
+    .textsummery{
+        margin-top: 10px;
+    }
+
+    .textsummery h1{
+        font-size: 25px;
+    }
+    
+}
+
