@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/textchangers/static/css/main.b1f07811.css",
+    "main.js": "/textchangers/static/js/main.643dd322.js",
+    "index.html": "/textchangers/index.html",
+    "main.b1f07811.css.map": "/textchangers/static/css/main.b1f07811.css.map",
+    "main.643dd322.js.map": "/textchangers/static/js/main.643dd322.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1f07811.css",
+    "static/js/main.643dd322.js"
+  ]
+}
